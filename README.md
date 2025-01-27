@@ -24,5 +24,5 @@ from notify_pack import send_notification
 for i in range(10000):
     pass
 
-send_notification("Task Completed", "Your script has finished running!")
+send_notification(title="Task Completed", message="Your script has finished running!", timeout=120):
 ```
