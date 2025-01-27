@@ -1,7 +1,7 @@
 import platform
 from plyer import notification
 
-def send_notification(title="Task Completed", message="Your script has finished running!", timeout=5):
+def send_notification(title="Task Completed", message="Your script has finished running!", timeout=10):
     system = platform.system()
     notification.notify(
         title=title,
